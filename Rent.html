@@ -1,0 +1,38 @@
+<!-- Booking Form -->
+<a href="Rent.html"></a>
+<section class="booking-form" id="booking">
+  <div class="heading">
+    <h1>Book Your Car Now</h1>
+  </div>
+  <div class="booking-container">
+    <form action="#">
+      <div class="input-box">
+        <label for="car-type">Car Type</label>
+        <select name="car-type" id="car-type">
+          <option value="sedan">Sedan</option>
+          <option value="suv">SUV</option>
+          <option value="hatchback">Hatchback</option>
+        </select>
+      </div>
+      <div class="input-box">
+        <label for="pickup-date">Pick-Up Date</label>
+        <input type="date" id="pickup-date" name="pickup-date" required />
+      </div>
+      <div class="input-box">
+        <label for="return-date">Return Date</label>
+        <input type="date" id="return-date" name="return-date" required />
+      </div>
+      <div class="input-box">
+        <label for="contact-info">Contact Information</label>
+        <input
+          type="text"
+          id="contact-info"
+          name="contact-info"
+          placeholder="Enter your contact information"
+          required
+        />
+      </div>
+      <input type="submit" class="btn" value="Rent Now" />
+    </form>
+  </div>
+</section>
